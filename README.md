@@ -5,6 +5,9 @@ SQL files for work requirement 4.
 sqlite3
 .open books.db
 .read create-tables.sql
+.mode column
+.headers on
+.read queries.sql
 
 # Comments
 The data reflects the messy reality where some books have 0, some 1 and some several authors, and where some data may be missing.

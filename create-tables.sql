@@ -1,11 +1,7 @@
-# FOR TESTING
-
 DROP TABLE IF EXISTS book_author;
 DROP TABLE IF EXISTS author;
 DROP TABLE IF EXISTS quote;
 DROP TABLE IF EXISTS book;
-
-# CREATE TABLES
 
 CREATE TABLE book(
  book_id INTEGER PRIMARY KEY,
@@ -87,7 +83,7 @@ INSERT INTO quote VALUES
 (9,'Konjunktiv er obligatorisk i innrømmelsesbisetninger (setninger innledet av konjunksjoner som betyr ''selv om'' o.l.).',5),
 (10,'Da det italienske verbum har spesielle bøyningsendelser for hver person, er ikke subjektspronomenet absolutt nødvendig. Det brukes likevel i ikke liten utstrekning, og bare lang bruk av språket kan lære en å bruke det riktig.',5),
 (11,'Isotermer er linjer gjennom steder med samme temperatur.',6),
-(12,'At lufttemperaturen på et sted er redusert til havflaten vil si at lufttemperaturen der er øket med 0,5 grader C for hver 1++ m av høyden på stedet.',6),
+(12,'At lufttemperaturen på et sted er redusert til havflaten vil si at lufttemperaturen der er øket med 0,5 grader C for hver 100 m av høyden på stedet.',6),
 (13,'FINNLAND',6),
 (14,'Vi må få opp en linindustri. Landbruks- og småbruksskolene må gå *foran* og ta opp igjen dyrkningen, og husmorskolene må veve linvarene. Det gjelder å bli sjølberget også i denne produksjonsgren. La linåkrene med sine vakre blå blomster igjen bølge i bygdene.',7),
 (15,'Fra gammelt av har det vært alminnelig å angi hvor mang snes (20 tinder) eller basmer (30 tinder) vevskjeen har inneholdt på en alen (63 cm). Den mest brukte tellingsmåte nå er å telle hvor mange tinder skjeen har på 10 cm.',7),
